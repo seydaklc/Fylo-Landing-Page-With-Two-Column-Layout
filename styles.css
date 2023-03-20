@@ -23,6 +23,15 @@ li {
 a {
   text-decoration: none;
 }
+li a {
+  color: hsl(243, 87%, 12%);
+}
+footer li a {
+  color: white;
+}
+footer li a:hover {
+  color: hsl(243, 84%, 38%);
+}
 a:hover {
   cursor: pointer;
 }
@@ -42,7 +51,6 @@ header ul {
   width: 60%;
   display: flex;
   justify-content: flex-end;
-  color: hsl(243, 87%, 12%);
 }
 .link {
   display: flex;
@@ -114,7 +122,7 @@ section h2 {
 }
 .second p {
   text-align: left;
-  color:  hsl(0, 1%, 47%);
+  color: hsl(0, 1%, 47%);
   font-size: 11px;
 }
 .second a {
@@ -130,7 +138,6 @@ section h2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
   color: hsl(243, 87%, 12%);
   box-shadow: 1px 1px 10px rgb(175, 175, 175);
 }
@@ -268,9 +275,12 @@ footer ul {
     margin: 30px auto 50px 0;
   }
   .third {
-    width: 25%;
-    align-self: flex-start;
-    margin-left: 60px;
+    width: 50%;
+    margin-left: 30px;
+  }
+  .second .landing {
+    width: 85%;
+    padding: 30px;
   }
   .third p {
     font-size: 14px;
